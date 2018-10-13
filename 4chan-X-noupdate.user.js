@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         4chan X
+// @name         4chan X (Cirno Edition)
 // @version      1.14.3.1
 // @minGMVer     1.14
 // @minFFVer     26
@@ -71,8 +71,6 @@
 // @grant        GM.openInTab
 // @grant        GM.xmlHttpRequest
 // @run-at       document-start
-// @updateURL    https://noupdate.invalid/
-// @downloadURL  https://noupdate.invalid/
 // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAACVBMVEUAAGcAAABmzDNZt9VtAAAAAXRSTlMAQObYZgAAAF5JREFUeNrtkTESABAQxPD/R6tsE2dUGYUtFJvLDKf93KevHJAjpBorAQWSBIKqFASC4G0pCAkm4GfaEvgYXl0T6HBaE97f0vmnfYHbZOMLZCx9ISdKWwjOWZSC8GYm4SUGwfYgqI4AAAAASUVORK5CYII=
 // ==/UserScript==
 

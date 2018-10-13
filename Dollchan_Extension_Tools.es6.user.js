@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Dollchan Extension Tools
+// @name            Dollchan Extension Tools (Cirno Edition)
 // @version         18.8.9.0
 // @namespace       http://www.freedollchan.org/scripts/*
 // @author          Sthephan Shinkufag @ FreeDollChan
@@ -18,7 +18,9 @@
 // @grant           GM.deleteValue
 // @grant           GM.xmlHttpRequest
 // @grant           unsafeWindow
-// @include         *
+// @match           https://2ch.hk/*
+// @match           https://iichan.hk/*
+// @match           http://dobrochan.com/*
 // @nocompat        Chrome
 // ==/UserScript==
 
