@@ -1,0 +1,27 @@
+--- ./../original/4chan-X-noupdate.user.js	2018-10-13 17:54:48.045250000 +0000
++++ ./../4chan-X-noupdate.user.js	2018-10-14 05:50:19.855442271 +0000
+@@ -1,5 +1,5 @@
+ // ==UserScript==
+-// @name         4chan X
++// @name         4chan X (Cirno Edition)
+ // @version      1.14.3.1
+ // @minGMVer     1.14
+ // @minFFVer     26
+@@ -71,8 +71,6 @@
+ // @grant        GM.openInTab
+ // @grant        GM.xmlHttpRequest
+ // @run-at       document-start
+-// @updateURL    https://noupdate.invalid/
+-// @downloadURL  https://noupdate.invalid/
+ // @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAACVBMVEUAAGcAAABmzDNZt9VtAAAAAXRSTlMAQObYZgAAAF5JREFUeNrtkTESABAQxPD/R6tsE2dUGYUtFJvLDKf93KevHJAjpBorAQWSBIKqFASC4G0pCAkm4GfaEvgYXl0T6HBaE97f0vmnfYHbZOMLZCx9ISdKWwjOWZSC8GYm4SUGwfYgqI4AAAAASUVORK5CYII=
+ // ==/UserScript==
+ 
+@@ -404,7 +402,7 @@
+       filesize: '',
+       MD5: ''
+     },
+-    sauces: "# Known filename formats:\nhttp://www.pixiv.net/member_illust.php?mode=medium&illust_id=%$1;regexp:/^(\\d+)_p\\d+/\n//%$1.deviantart.com/gallery/#/d%$2;regexp:/^\\w+_by_(\\w+)-d([\\da-z]+)/\n//imgur.com/%$1;regexp:/^(?![a-zA-Z][a-z]{6})(?![A-Z]{7})(?!\\d{7})([\\da-zA-Z]{7})(?: \\(\\d+\\))?\\.\\w+$/\nhttp://flickr.com/photo.gne?id=%$1;regexp:/^(\\d+)_[\\da-f]{10}(?:_\\w)*\\b/\nhttps://www.facebook.com/photo.php?fbid=%$1;regexp:/^\\d+_(\\d+)_\\d+_[no]\\b/\n\n# Reverse image search:\nhttps://www.google.com/searchbyimage?image_url=%IMG&safe=off\nhttps://www.yandex.com/images/search?rpt=imageview&img_url=%IMG\n#//tineye.com/search?url=%IMG\n#//www.bing.com/images/search?q=imgurl:%IMG&view=detailv2&iss=sbi#enterInsights\n\n# Specialized reverse image search:\n//iqdb.org/?url=%IMG\nhttps://whatanime.ga/?auto&url=%IMG;text:wait\n#//3d.iqdb.org/?url=%IMG\n#//saucenao.com/search.php?url=%IMG\n\n# \"View Same\" in archives:\nhttp://eye.swfchan.com/search/?q=%name;types:swf\n#https://desuarchive.org/_/search/image/%sMD5/\n#https://archive.4plebs.org/_/search/image/%sMD5/\n#https://boards.fireden.net/_/search/image/%sMD5/\n#https://foolz.fireden.net/_/search/image/%sMD5/\n\n# Other tools:\n#http://exif.regex.info/exif.cgi?imgurl=%URL\n#//imgops.com/%URL;types:gif,jpg,png\n#//www.gif-explode.com/%URL;types:gif",
++    sauces: "# Known filename formats:\nhttp://www.pixiv.net/member_illust.php?mode=medium&illust_id=%$1;regexp:/^(\\d+)_p\\d+/\n//%$1.deviantart.com/gallery/#/d%$2;regexp:/^\\w+_by_(\\w+)-d([\\da-z]+)/\n//imgur.com/%$1;regexp:/^(?![a-zA-Z][a-z]{6})(?![A-Z]{7})(?!\\d{7})([\\da-zA-Z]{7})(?: \\(\\d+\\))?\\.\\w+$/\nhttp://flickr.com/photo.gne?id=%$1;regexp:/^(\\d+)_[\\da-f]{10}(?:_\\w)*\\b/\nhttps://www.facebook.com/photo.php?fbid=%$1;regexp:/^\\d+_(\\d+)_\\d+_[no]\\b/\n\n# Reverse image search:\nhttps://www.google.com/searchbyimage?image_url=%IMG&safe=off\nhttps://www.yandex.com/images/search?rpt=imageview&img_url=%IMG\n#//tineye.com/search?url=%IMG\n#//www.bing.com/images/search?q=imgurl:%IMG&view=detailv2&iss=sbi#enterInsights\nhttps://ascii2d.net/search/url/%IMG;text:ascii2d\n\n# Specialized reverse image search:\n//iqdb.org/?url=%IMG\nhttps://whatanime.ga/?auto&url=%IMG;text:wait\n#//3d.iqdb.org/?url=%IMG\n#//saucenao.com/search.php?url=%IMG\n\n# \"View Same\" in archives:\nhttp://eye.swfchan.com/search/?q=%name;types:swf\n#https://desuarchive.org/_/search/image/%sMD5/\n#https://archive.4plebs.org/_/search/image/%sMD5/\n#https://boards.fireden.net/_/search/image/%sMD5/\n#https://foolz.fireden.net/_/search/image/%sMD5/\n\n# Other tools:\n#http://exif.regex.info/exif.cgi?imgurl=%URL\n#//imgops.com/%URL;types:gif,jpg,png\n#//www.gif-explode.com/%URL;types:gif",
+     FappeT: {
+       werk: false
+     },
