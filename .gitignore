@@ -1,1 +1,4 @@
 *.test.user.js
+/old/
+/original/
+/diff/
